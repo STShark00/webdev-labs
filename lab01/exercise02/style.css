@@ -1,11 +1,23 @@
 body * {
     box-sizing: border-box;
+    float: left;
 }
 
-body {
+section {
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #CCC;
+    width: 350px;
+    height: 470px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px
 }
 
+img {
+    margin: -11px;
+    width: 350px;
+}
 /*
 Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
@@ -13,12 +25,15 @@ Feel free to borrow from Exercise 1.
 
 
 /* Tablet Media Query */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1280px) {
 
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-
+    body * {
+        box-sizing: border-box;
+        float: none;
+    }
     
 }
